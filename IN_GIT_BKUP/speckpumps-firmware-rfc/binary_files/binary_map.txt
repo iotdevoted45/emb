@@ -1,0 +1,23 @@
+0x1000				bootloader.bin
+0x8000 				partition-table.bin
+0xd000 				ota_data_initial.bin 
+0x10000 			RFB_1_0_0.bin 
+0x2f0000 			storage.bin
+
+
+How to Generate the storage.bin with certificates
+
+1. Create folder "cert" and put device certificate and key in this folder
+2. Run command "python spiffsgen.py 131072 cert storage.bin"
+3. Above command will generate the storage.bin file. 
+
+
+How to get/read mac id
+
+1. install esptool 
+2. use command "esptool read_mac"
+
+How to flash using esptool 
+
+esptool -p (PORT) -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0xd000 ota_data_initial.bin 0x10000 RFB_1_0_0.bin 0x2f0000 storage.bin
+

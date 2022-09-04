@@ -1,0 +1,1 @@
+python spiffsgen.py 131072 certs storage.bin

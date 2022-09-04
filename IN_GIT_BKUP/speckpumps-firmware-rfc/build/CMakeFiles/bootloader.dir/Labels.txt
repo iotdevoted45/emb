@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+E:/VSC_test/espidf/code/SP_RFC/build/CMakeFiles/bootloader
+E:/VSC_test/espidf/code/SP_RFC/build/CMakeFiles/bootloader.rule
+E:/VSC_test/espidf/code/SP_RFC/build/CMakeFiles/bootloader-complete.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+E:/VSC_test/espidf/code/SP_RFC/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
